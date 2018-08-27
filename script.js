@@ -26,7 +26,7 @@ function addListAfterKeypress(event) {
 
 button.addEventListener("click",addListAfterClick); 	
 input.addEventListener("keypress", addListAfterKeypress);
-	
+
 console.log(document.getElementsByTagName("h1"));
 console.log(document.getElementsByClassName("second")[0]);
 console.log(document.getElementById("first"));
